@@ -1,126 +1,393 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Personal Profile</title>
-        <link rel="stylesheet" href="style.css">
+        <title>
+            My short project
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <!--Main header section-->
+        <!-- Header section -->
         <header class="main-header">
-            <h1 class="header-title">
-                My Profile Card
-            </h1>
-            <nav class="main-navigation">
-                <ul class="main-navigation__items">
-                    <li class="main-navigation__item active">
-                        <a href="#">Home</a>
+            <div class="container">
+                <div class="main-header__brand">
+                    <a href="index.html">
+                        <img src="./photologo/logo.png">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation__items">
+                        <li class="main-navigation__item active">
+                            <a href="#">Basic</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">About me</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Clients</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Partners</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- /Header section -->
+
+        <!-- Main section -->
+        <div class="main-banner">
+             <div class="container">
+        <section id="main-section" class="main-section">
+            <div class="main-section__info">
+                <h4 class="main-section__welcome to-uppercase">
+                    Hello everybody
+                    <span class="blur-line"></span>
+                </h4>
+                <h1 class="main-section__introduction to-uppercase">
+                    I'm Atadjanov
+                </h1>
+                <h3 class="main-section__position to-uppercase">
+                    Currently Middle Developer
+                </h3>
+                <div class="main-section__networks">
+                    <a href="https://t.me/Leader_Jakhan_05">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="https//instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https//facebook.com">
+                        <i class="fa-brands fa-facebook"></i>    
+                    </a>
+                    <a href="https//you tube.com">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <button type="button" class="main-section__button">
+                    Here
+                </button>
+            </div>
+            <div class="main-section__image">
+                <img src="./mypng/me.png" alt="My image">
+            </div>       
+        </section>
+        <div class="clearfix"></div>
+        </div>
+        </div>
+        <!-- /Main section -->
+
+        <!-- Statics section -->
+        <div class="container">
+            <section id="statistics" class="statistics">
+                <div class="statistics-section__item">
+                    <h3 class="statistics-numbers">
+                        20K+
+                    </h3>
+                    <p class="statistics-title">
+                        Happy Custumer
+                    </p>
+                </div>
+                <div class="statistics-section__item">
+                    <h3 class="statistics-numbers">
+                        50K
+                    </h3>
+                    <p class="statistics-title">
+                        Solved Problem
+                    </p>
+                </div>
+                <div class="statistics-section__item">
+                    <h3 class="statistics-numbers">
+                        9/10
+                    </h3>
+                    <p class="statistics-title">
+                        Average rating
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- /Statics section -->
+
+        <!-- About me section -->
+        <div class="container">
+            <section id="about_me" class="about_me">
+                <div class="about-me__img">
+                    <img src="photologo/png-.png" alt="About me">
+                </div>
+                <div class="about-me__info">
+                    <h5 class="section-subtitle">
+                        About me
+                        <span class="blur-line"></span>
+                    </h5>
+                    <h3 class="section-title">
+                        Currenty Middle Developer
+                    </h3>
+                    <p class="about-me__description">
+                        Curently Learner and Middle Developer on HTML CSS REACT JS (Lorem ipsum Last many years important)
+                    </p>
+                    <button type="button" class="main-section__button">
+                        My CV
+                    </button>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+        <!-- /About me section -->
+
+        <!-- Services section -->
+        <div class="container">
+            <section id="services" class="services">
+            <h5 class="section-subtitle">
+                My services
+                <span class="blur-line"></span>
+            </h5>
+            <h2 class="section-title">
+                What Services <br>
+                We offer for you
+            </h2>
+            <p class="section__description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+            <div class="services__cards" >
+                <div class="service__card">
+                    <img class="service-card__icon" src="./mypng/service1.jpg" alt="service 1">
+                    <h5 class="service-card__title">
+                        web developer
+                    </h5>
+                    <p class="service-card__description">
+                        I know HTML well and have experience with it; I have small projects with it. For example 2025 our plan wasn't good!
+                    </p>
+                    <a href="#" class="services-cards__link">More</a>
+                </div>
+                <div class="service__card">
+                    <img class="service-card__icon" src="./mypng/service2.jpg" alt="service 1">
+                    <h5 class="service-card__title">
+                        Our Experience
+                    </h5>
+                    <p class="service-card__description">
+                       The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    </p>
+                    <a href="#" class="services-cards__link">More</a>
+                </div>
+                <div class="service__card">
+                    <img class="service-card__icon" src="./mypng/service3.jpg" alt="service 1">
+                    <h5 class="service-card__title">
+                        Our Experience
+                    </h5>
+                    <p class="service-card__description">
+                       The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    </p>
+                    <a href="#" class="services-cards__link">More</a>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!-- /Services section -->
+
+        <!-- Clients section -->
+        <div class="container">
+            <section id="clients" class="clients">
+                <h5 class="section-subtitle">
+                    my clients
+                    <span class="blur-line"></span>
+                </h5>
+                <h2 class="section-title">
+                    my clients 
+                    <br>
+                    about me
+                </h2>
+                <div class="clients-items">
+                    <div class="client-item">
+                        <div class="client-item__img">
+                            <img src="mypng/clients.png" alt="Client image">
+                        </div>
+                        <div class="client-item__info">
+                            <h3 class="client-item__name">
+                                 John Tompson
+                            </h3>
+                            <p class="client-item__position">
+                                Senior (fist) developer in UK
+                            </p>
+                            <p class="client-item__reviev">
+                                 is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now us
+                            </p>
+                            <div class="client-item__rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star disabled"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
+        <!-- /Clients section -->
+
+        <!-- Portfolio section -->
+        <div class="container">
+            <section id="portfolio" class="portfolio">
+                <div class="section-subtitle">
+                    our work
+                    <span class="blur-line"></span>
+                </div>
+                <div class="section-title">
+                    look at our 
+                    <br>
+                     last works
+                </div>
+                <ul class="portfolio-filters">
+                    <li class="active">
+                        All
                     </li>
-                    <li class="main-navigation__item">
+                    <li class="">
+                        popular
+                    </li>
+                    <li>
+                        recently
+                    </li>
+                </ul>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <img src="./mypng/portfolio1.jpg" alt="Portfolio image1" class="portfolio-item__image1">
+                        <div class="portfolio-item__overlay">
+                            <div class="portfolio-item__info">
+                                <h4>
+                                    <a href="#">Portfolio item 1</a>
+                                </h4>
+                                <p>
+                                    About our work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item portfolio-item__2">
+                        <img src="./mypng/portfolio2.jpg" alt="Portfolio image2" class="portfolio-item__image2">
+                        <div class="portfolio-item__overlay">
+                            <div class="portfolio-item__info">
+                                <h4>
+                                    <a href="#">Portfolio item 2</a>
+                                </h4>
+                                <p>
+                                    About our work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item portfolio-item__3">
+                        <img src="./mypng/portfolio3.jpg" alt="Portfolio image3" class="portfolio-item__image3">
+                        <div class="portfolio-item__overlay">
+                            <div class="portfolio-item__info">
+                                <h4>
+                                    <a href="#">Portfolio item 3</a>
+                                </h4>
+                                <p>
+                                    About our work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item portfolio-item__4">
+                        <img src="./mypng/portfolio4.jpg" alt="Portfolio image4" class="portfolio-item__image4">
+                        <div class="portfolio-item__overlay">
+                            <div class="portfolio-item__info">
+                                <h4>
+                                    <a href="#">Portfolio item 4</a>
+                                </h4>
+                                <p>
+                                    About our work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /Portfolio section -->
+
+        <!-- Blog section -->
+        <div class="container">
+            <section id="blog" class="blog-section">
+                <div class="section-subtitle">
+                    My Blog
+                    <span class="blur-line"></span>
+                </div>
+                <div class="section-title">
+                    My last blog
+                </div>
+                <div class="blog-items">
+                    <div class="blog-item__image">
+                        `<img src="./mypng/blog-1.jpg" alt="Blog 1 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                Feb 12, 2026
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            My article
+                        </h5>
+                        <p class="blog-item__description">
+                            Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.
+                        </p>
+                        <a class="blog-item__learn-more">
+                            More read
+                        </a>
+                    </div>
+                </div>
+        </div>   
+        <!-- /Blog section -->
+
+        <!-- Partners section -->
+        <section id="partners_section">
+            <h1> my Partners</h1>
+        </section>
+        <!-- /Partners section -->
+
+        <!-- Footer section -->
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Basic</a>
+                    </li>
+                    <li>
+                        <a href="#">About me</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
                         <a href="#">Portfolio</a>
                     </li>
-                    <li class="main-navigation__item">
-                        <a href="#">My Works</a>
+                    <li>
+                        <a href="#">Blog</a>
                     </li>
-                    <li class="main-navigation__item">
-                        <a href="#">Contact me</a>
+                    <li>
+                        <a href="#">Partners</a>
                     </li>
                 </ul>
             </nav>
-        </header>
-        <!-- /Main header section-->
-        
-        <!--Profile card section-->
-        <section class="profile-card card-container">
-            <div class="profile-card__items">
-                <img src="./Infophotos/portfolio 1.jpg" class="card-image" alt="Card image">
-                <div class="profile card__item">
-                    <h2 class="card-full__name">
-                        Jakhongir Atadjanov
-                    </h2>
-                    <h3 class="card-job">
-                        Frontend Developer
-                    </h3>
-                </div>
-                <button class="card-button">Contact me</button>
-            </div>          
-        </section>
-        <!-- /Profile card section-->
-
-        <!--Info section left-->
-        <section class="info-left container">
-            <div class="left-items">
-                <div class="left-item left-item__1">
-                    <img src="./Infophotos/Info1 (2).jpg" alt="Info photo" class="left-photo">
-                    <div class="left-item__overlay item1-overlay">
-                        <div class="left-item__info">
-                            <p>
-                                About my work
-                            </p>
-                            <h4>
-                            <a href="#">More here</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="left-extra__info">
-                        <h4 class="short-info__title">
-                            Short info
-                        </h4>
-                    <p class="description">
-                        I am learning programming because I am currently learning HTML and CSS.
-                        In the future, I want to work as a frontend developer.
-                        I practice coding every day to improve my skills.
-                    </p>
-                </div>
-                <div class="left-item left-item__2">
-                    <img src="./Infophotos/Info2.jpg" alt="Info photo" class="left-photo">
-                    <div class="left-item__overlay">
-                        <div class="left-item__info">
-                            <p>
-                                Its my practice work
-                            </p>
-                            <h4>
-                            <a href="#">More here</a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Info section right-->
-        <section class="second-info__section container" id="second-info__section">
-            <div class="second-info__items">
-                <h3 class="Purpose-text">My purpose is to become a frontend developer.</h3>
-                <div class="info-purpose__lists">
-                    <ol>
-                        <li>
-                            I am learning HTML, CSS, and JavaScript to become a frontend developer.
-                        </li>
-                        <li>
-                            I practice coding every day by building small projects.
-                        </li>
-                        <li>
-                            My goal is to get a job as a frontend developer.
-                        </li>
-                        <li>
-                            I want to improve my skills and work on real projects in the future.
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </section>
-        <!-- /Info section-->
-
-        <!--Footer section-->
-        <footer class="footer-section">
-            <div class="footer-section__items">
-                <div class="footer-section__end"> 
-                    <h5>© 2026 Designed & Built by Avenger
-                    </h5>
-                
-            </div>        
         </footer>
-    </bod>
+        <!-- /Footer section -->
+    </body>
 </html>
